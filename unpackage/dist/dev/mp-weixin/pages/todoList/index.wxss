@@ -1,0 +1,9 @@
+
+.uni-list-cell {
+  justify-content: flex-start;
+}
+.setInnerRight {
+  display: flex;
+  justify-content: flex-end;
+}
+

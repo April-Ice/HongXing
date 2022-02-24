@@ -1,0 +1,77 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "HONGXING"
+			}
+		},
+		{
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/sort/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/todoList/index",
+			"style": {
+				"navigationBarTitleText": "todoList"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "",
+	        "selectedIconPath": "",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/sort/index",
+	        "iconPath": "",
+	        "selectedIconPath": "",
+	        "text": "分类"
+	    }, {
+	        "pagePath": "pages/cart/index",
+	        "iconPath": "",
+	        "selectedIconPath": "",
+	        "text": "购物车"
+	    }, {
+	        "pagePath": "pages/user/index",
+	        "iconPath": "",
+	        "selectedIconPath": "",
+	        "text": "我的"
+	    }]
+	}
+}
